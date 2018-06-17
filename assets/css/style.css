@@ -1,0 +1,168 @@
+body {
+    background-image: url("../images/concrete_seamless.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p {
+    color: #777777;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    float: left;
+    padding: 14px 16px;
+    color: white;
+    background: #4aaaa5;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 5px;
+    color: #4aaaa5;
+}
+
+
+
+.header {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background: #ffffff;
+    overflow: auto;
+    border: 1px solid #cccccc;
+    padding-left: 50px;
+}
+
+.content {
+    width: 960px;
+    clear:both;
+    font-size: 18px;
+    line-height: 22px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#self {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 5px;
+    
+}
+
+#self:hover {
+    outline: 2px solid #FFA06F; 
+    outline-offset: -5px;
+}
+
+
+li {
+    float: left;
+    position: relative;
+    left: 580px;
+    border-right: 1px solid black;
+}
+
+
+li:last-child {
+    border-right: none;
+}
+li a {
+    text-decoration: none;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    color:#4aaaa5;
+}
+
+.imageContainer {
+    margin: 5px;
+    border: 1px solid;
+    border-color: #4aaaa5;
+    float: left;
+    width: 200px;
+    height: 150px;
+}
+
+.imageContainer:hover {
+    border: 2px solid #FFA06F;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.imageContainer img:hover{
+    opacity: .5;
+}
+
+.description {
+    padding: 5px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    bottom: 50px;
+}
+
+
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #4aaaa5;
+    color: white;    
+    padding: 14px 20px;
+    margin: 8px 0; 
+}
+
+input[type=submit]:hover {
+    outline: 1px solid #FFA06F; 
+    cursor: pointer;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #666666;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
