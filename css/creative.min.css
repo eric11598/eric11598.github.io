@@ -6,3 +6,9 @@ body,html{width:100%;height:100%}body{font-family:Merriweather,'Helvetica Neue',
     height: 100px;
     width: 100px;
 }
+
+.no-margin{
+    padding: 0px !important;
+    color: red;
+    margin-bottom: 0;
+   }
