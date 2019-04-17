@@ -106,7 +106,14 @@
     });
   });
 
+
+
 })(jQuery); // End of use strict
+
+var fitLive=()=>window.open('https://eric11598.github.io/FitnessApp/index.html')
+var fitGit=()=>window.open('https://github.com/eric11598/FitnessApp')
+
+
 
 
 
