@@ -113,10 +113,11 @@
 var fitLive=()=>window.open('https://eric11598.github.io/FitnessApp/index.html')
 var fitGit=()=>window.open('https://github.com/eric11598/FitnessApp')
 
+var datingLive=()=>window.open('https://edating.herokuapp.com/')
+var datingGit=()=>window.open('https://github.com/JackJoeng/project2')
 
-
-
-
+var cashingLive=()=>window.open('http://cashing-winners.herokuapp.com/home')
+var cashingGit=()=>window.open('https://github.com/naz585/Final-Project')
 
 /*
 var modal = document.getElementById('myModal');
